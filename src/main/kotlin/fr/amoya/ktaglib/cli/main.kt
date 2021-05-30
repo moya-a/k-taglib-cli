@@ -2,7 +2,7 @@ package fr.amoya.ktaglib.cli
 
 import fr.amoya.ktaglib.cli.processor.CliProcessor
 import fr.amoya.ktaglib.cli.processor.CliProcessorImpl
-import fr.amoya.ktaglib.common.tags.Tag
+import fr.amoya.ktaglib.common.Tag
 
 @ExperimentalUnsignedTypes
 fun main(args: Array<String>)
