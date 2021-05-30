@@ -2,6 +2,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     kotlin("jvm") version "1.5.10"
+    kotlin("plugin.serialization") version "1.5.10"
     application
 }
 
@@ -17,6 +18,8 @@ dependencies {
     implementation(files("../k-taglib/build/libs/k-taglib-jvm-1.0-SNAPSHOT.jar"))
 
     implementation("org.jetbrains.kotlinx:kotlinx-cli:0.3.2")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.2.1")
+
     // Junit5 Test-Framework
     testImplementation("org.junit.jupiter:junit-jupiter:5.7.0")
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.7.0")
