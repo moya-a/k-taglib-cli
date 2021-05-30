@@ -13,8 +13,8 @@ repositories {
 }
 
 dependencies {
-    //implementation(files(""))
-
+    // for now as a local dependency but will be uploaded to maven at some point
+    implementation(files("../k-taglib/build/libs/k-taglib-jvm-1.0-SNAPSHOT.jar"))
 
     implementation("org.jetbrains.kotlinx:kotlinx-cli:0.3.2")
     // Junit5 Test-Framework
