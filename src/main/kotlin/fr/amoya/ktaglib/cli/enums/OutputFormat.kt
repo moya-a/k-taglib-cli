@@ -1,6 +1,6 @@
 package fr.amoya.ktaglib.cli.enums
 
-enum class OutputFormatter
+enum class OutputFormat
 {
   JSON, CSV, CRLF
 }
